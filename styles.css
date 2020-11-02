@@ -145,7 +145,7 @@ body {
   font-size:19px;
 } */
 
-.info {
+.first {
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -153,11 +153,11 @@ body {
   background-color: rgb(245, 241, 241);
 }
 
-.first {
+/* .first {
   width: 100%;
   height: 1000px;
   background: #ccc;
-}
+} */
 
 .second {
   width: 100%;

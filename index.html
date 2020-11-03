@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <link rel="icon" href="favicon.ico" />
+    <script src="Portfolio.js"></script>
+
 
 </head>
 <header>
     <div class="header">
         <ul class="nav">
+                <div class="first"><button type="button" onclick="smoothScroll(document.getElementById('info'))">Click Me!</button></div>
                 <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/index.html">Home</a></li>
                 <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/code.html">Code</a></li>
                 <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/design.html">Design</a></li>
@@ -36,15 +39,14 @@
           <hr>
           <div class="desc">
             Welcome to my Portfolio website. You can find out more about me by scrolling or clicking a button.
-          </div>
-        
+          </div>  
         </div>
+          
 
     </div>
-    <div class ="first">
+    <div class ="info" id="info">
+        Hello
                  <img class="myFace" src="/Users/hannahbarker/Documents/myCode/Portfolio/myFace.png"> 
-                 <button type="button" onclick="smoothScroll(document.getElementById('second'))">Click Me!</button></div>
-                 <div class="second" id="second">Hi</div>
 
     </div>
 

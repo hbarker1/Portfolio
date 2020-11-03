@@ -14,18 +14,17 @@
 <header>
     <div class="header">
         <ul class="nav">
-                <div class="first"><button type="button" onclick="smoothScroll(document.getElementById('info'))">Click Me!</button></div>
-                <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/index.html">Home</a></li>
-                <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/code.html">Code</a></li>
-                <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/design.html">Design</a></li>
-                <li><a href="/Users/hannahbarker/Documents/myCode/Portfolio/illustration.html">Illustration</a></li>
-                <li class="libutton">  <a class="button1" id="navbutton" href="/Users/hannahbarker/Documents/myCode/Portfolio/about.html">About Me</a>
+                <li><div class="button2" id="navbutton"><button class="button2" type="button" onclick="smoothScroll(document.getElementById('top'))">Home</button></div></li>
+                <li><div class="button3" id="navbutton"><button class="button3" type="button" onclick="smoothScroll(document.getElementById('code'))">Code</button></div></li>
+                <li><div class="button4" id="navbutton"><button class="button4" type="button" onclick="smoothScroll(document.getElementById('design'))">Design</button></div></li>
+                <li><div class="button5" id="navbutton"><button class="button5" type="button" onclick="smoothScroll(document.getElementById('illustration'))">Illustration</button></div></li>
+                <li class="libutton">  <div class="button1" id="navbutton" <button type="button" onclick="smoothScroll(document.getElementById('info'))">About Me</button></div>
                 </li>
         </ul>
     </div>
 </header>
 <body>
-    <div class="logo">
+    <div class="logo" id="top">
         <img class="floral" src="floral-top.png">
     </div>
     
@@ -45,10 +44,21 @@
 
     </div>
     <div class ="info" id="info">
-        Hello
                  <img class="myFace" src="/Users/hannahbarker/Documents/myCode/Portfolio/myFace.png"> 
 
     </div>
+    
+    <div class ="code" id="code">
+        <h1>Code</h1>
+    </div>
+
+    <div class ="design" id="design">
+        <h1>Design</h1>
+    </div>
+
+<div class ="illustration" id="illustration">
+    <h1>Illustration</h1>
+</div>
 
 </body>
 </html>
